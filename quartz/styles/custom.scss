@@ -1,3 +1,11 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Profile photo styling
+.page-content img[alt="Profile Photo"] {
+  max-width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1.5rem;
+}
