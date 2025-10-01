@@ -3,9 +3,12 @@
 // put your custom CSS here!
 
 // Profile photo styling
-.page-content img[alt="Profile Photo"] {
-  max-width: 200px;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto 1.5rem;
+img[alt="Profile Photo"] {
+  max-width: 150px !important;
+  width: 150px !important;
+  height: 150px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  display: block !important;
+  margin: 0 auto 1.5rem !important;
 }
