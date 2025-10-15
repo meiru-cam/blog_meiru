@@ -38,7 +38,14 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => {
+        // Exclude tags folder, README, and DEPLOYMENT files
+        return node.slugSegment !== "tags" &&
+               node.displayName !== "README" &&
+               node.displayName !== "DEPLOYMENT"
+      },
+    }),
   ],
   right: [
     Component.Graph(),
@@ -62,7 +69,30 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => {
+        // Exclude tags folder, README, and DEPLOYMENT files
+        return node.slugSegment !== "tags" &&
+               node.displayName !== "README" &&
+               node.displayName !== "DEPLOYMENT"
+      },
+    }),
   ],
   right: [],
+}
+
+export const defaultSharedLayout: SharedLayout = {
+ header: [
+   Component.NavBar({
+     title: "Meiru",
+     links: {
+       "Home": "/",
+       "News": "/News",
+       "Publications": "/Publications",
+       "Blog": "/Blog",
+       "Experience": "/Experience",
+       "Projects": "/Projects",
+     },
+   }),
+ ],
 }
