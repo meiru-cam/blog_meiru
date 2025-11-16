@@ -4,44 +4,28 @@ title: Publications
 
 # Publications
 
-## Journal Articles
+## Selected Publications
 
-### Year
+**Title of Your Most Important Paper**
+*Authors* (Year). Journal Name, Volume(Issue), Pages.
+[[PDF]](files/paper1.pdf) | [[Cite]](#) | [[Code]](#) | [[Dataset]](#)
+
+---
+
+## Recent Publications
 
 **Title of Your Paper**
 *Authors* (Year). Journal Name, Volume(Issue), Pages.
-[[Paper Link]](https://doi.org/xxx) | [[PDF]](files/paper1.pdf)
-
-Brief description of the paper and its key contributions.
-
----
-
-## Conference Papers
-
-### Year
+[[PDF]](files/paper1.pdf) | [[Cite]](#) | [[Code]](#) | [[Dataset]](#)
 
 **Title of Your Conference Paper**
 *Authors* (Year). Conference Name.
-[[Paper Link]](https://doi.org/xxx) | [[PDF]](files/paper2.pdf)
-
-Brief description of the paper and its key contributions.
-
----
-
-## Preprints & Working Papers
+[[PDF]](files/paper2.pdf) | [[Cite]](#) | [[Code]](#) | [[Dataset]](#)
 
 **Title of Preprint**
 *Authors* (Year). arXiv/SSRN/etc.
-[[Paper Link]](https://arxiv.org/xxx)
-
-Brief description.
-
----
-
-## Thesis
+[[PDF]](#) | [[Cite]](#) | [[Code]](#) | [[Dataset]](#)
 
 **Your Thesis Title**
 Master's/PhD Thesis, University Name (Year).
-[[PDF]](files/thesis.pdf)
-
-Brief description.
+[[PDF]](files/thesis.pdf) | [[Cite]](#)
