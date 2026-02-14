@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Meiru Zhang</title>
+      <link>https://meiru-cam.github.io/blog_meiru</link>
+      <description>Last 10 notes on Meiru Zhang</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Publications</title>
+    <link>https://meiru-cam.github.io/blog_meiru/Publications</link>
+    <guid>https://meiru-cam.github.io/blog_meiru/Publications</guid>
+    <description><![CDATA[  ArXiv Failure Modes in Multi-Hop QA: The Weakest Link Law and the Recognition Bottleneck Meiru Zhang, Zaiqiao Meng, Nigel Collier Under review, 2026 PDF Abstract Multi-hop QA fails in long contexts due to position bias. ]]></description>
+    <pubDate>Sat, 14 Feb 2026 13:00:26 GMT</pubDate>
+  </item><item>
+    <title>Home</title>
+    <link>https://meiru-cam.github.io/blog_meiru/</link>
+    <guid>https://meiru-cam.github.io/blog_meiru/</guid>
+    <description><![CDATA[  Meiru Zhang PhD Student | University of Cambridge My research is driven by the potential of AI in real-world applications (“AI for good”). ]]></description>
+    <pubDate>Fri, 13 Feb 2026 20:39:15 GMT</pubDate>
+  </item><item>
+    <title>Blog</title>
+    <link>https://meiru-cam.github.io/blog_meiru/Blog</link>
+    <guid>https://meiru-cam.github.io/blog_meiru/Blog</guid>
+    <description><![CDATA[ Blog Welcome to my blog! Here I share reading notes, tool tips, PhD insights, and academic writing advice. ]]></description>
+    <pubDate>Fri, 13 Feb 2026 19:03:54 GMT</pubDate>
+  </item><item>
+    <title>VLA</title>
+    <link>https://meiru-cam.github.io/blog_meiru/blog/VLA</link>
+    <guid>https://meiru-cam.github.io/blog_meiru/blog/VLA</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 05 Feb 2026 18:25:24 GMT</pubDate>
+  </item><item>
+    <title>Example: Tool Usage Post</title>
+    <link>https://meiru-cam.github.io/blog_meiru/blog/example-tool-usage</link>
+    <guid>https://meiru-cam.github.io/blog_meiru/blog/example-tool-usage</guid>
+    <description><![CDATA[ Example: Tool Usage Post This is an example showing how to share tool tips and usage hints. ]]></description>
+    <pubDate>Tue, 30 Sep 2025 23:00:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
