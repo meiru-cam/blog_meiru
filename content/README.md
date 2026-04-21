@@ -1,19 +1,32 @@
 # Personal Academic Website
 
-This is the content folder for my personal academic website built with [Quartz](https://quartz.jzhao.xyz/).
+Built with [Quartz](https://quartz.jzhao.xyz/). Content lives here in `30 - Blog/`, symlinked into `quartz/content/`.
+
+## Quick Start
+
+```bash
+# Preview locally
+cd ~/O_Documents/quartz && npx quartz build --serve
+# Visit http://localhost:8080
+
+# Deploy to GitHub Pages
+cd ~/O_Documents/quartz && rm -rf public && npx quartz build && cd public && git init && git add -A && git commit -m "Update site" && git branch -M gh-pages && git remote add origin https://github.com/meiru-cam/blog_meiru.git && git push -f origin gh-pages
+```
 
 ## Structure
 
-- `index.md` - Home page with bio and links
-- `Publications.md` - List of academic publications
-- `Blog.md` - Blog index page
-- `blog/` - Individual blog posts (markdown files)
-- `images/` - Profile photo and other images
-- `files/` - CV and downloadable files
+| File | Purpose |
+|---|---|
+| `index.md` | Home page (bio, photo, news) |
+| `Publications.md` | Publication list with venue badges |
+| `Blog.md` | Blog index page |
+| `blog/` | Individual blog posts |
+| `images/` | Profile photo, paper figures |
+| `files/` | CV and downloadable files |
 
 ## Writing Blog Posts
 
-Create a new markdown file in the `blog/` folder with frontmatter:
+Create a new `.md` file in `blog/` with:
 
 ```yaml
 ---
@@ -27,27 +40,6 @@ tags:
 ---
 ```
 
-Available tags:
-- `literature-review` - Reading notes and paper summaries
-- `tools` - Software and tool usage tips
-- `phd-life` - PhD experiences and advice
-- `academic-writing` - Writing tips
+## Adding Publications
 
-## Preview Locally
-
-From the `quartz` directory:
-
-```bash
-cd /Users/zhangmeiru/O_Documents/quartz
-npx quartz build --serve
-```
-
-Visit http://localhost:8080
-
-## Updating Your Site
-
-After making changes to your content in `blog_radish/`:
-
-```bash
-cd /Users/zhangmeiru/O_Documents/quartz && rm -rf public && npx quartz build && cd public && git init && git add -A && git commit -m "Update site" && git branch -M gh-pages && git remote add origin https://github.com/meiru-cam/blog_meiru.git && git push -f origin gh-pages
-```
+Edit `Publications.md` — copy the HTML template at the bottom of the file for each new paper. Add paper figure images to `images/`.
