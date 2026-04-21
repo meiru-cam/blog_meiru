@@ -7,10 +7,10 @@
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>Blog</title>
-    <link>https://meiru-cam.github.io/blog_meiru/Blog</link>
-    <guid>https://meiru-cam.github.io/blog_meiru/Blog</guid>
-    <description><![CDATA[ Blog Welcome to my blog! Here I share reading notes, tool tips, PhD insights, and academic writing advice. ]]></description>
-    <pubDate>Tue, 21 Apr 2026 14:45:42 GMT</pubDate>
+    <link>https://meiru-cam.github.io/blog_meiru/blog/</link>
+    <guid>https://meiru-cam.github.io/blog_meiru/blog/</guid>
+    <description><![CDATA[ Reading notes, tool tips, PhD reflections, and technical deep-dives. ]]></description>
+    <pubDate>Tue, 21 Apr 2026 22:33:18 GMT</pubDate>
   </item><item>
     <title>Experience</title>
     <link>https://meiru-cam.github.io/blog_meiru/Experience</link>
@@ -47,24 +47,6 @@
     <guid>https://meiru-cam.github.io/blog_meiru/blog/llm-position-bias-rag</guid>
     <description><![CDATA[ LLM Position Bias and RAG Mechanism This post explores position bias in Large Language Models and its implications for Retrieval-Augmented Generation (RAG) systems. ]]></description>
     <pubDate>Sun, 16 Nov 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Example: Literature Review Post</title>
-    <link>https://meiru-cam.github.io/blog_meiru/blog/example-literature-review</link>
-    <guid>https://meiru-cam.github.io/blog_meiru/blog/example-literature-review</guid>
-    <description><![CDATA[ Example: Literature Review Post This is an example blog post showing how to write literature reviews or reading notes. ]]></description>
-    <pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Example: PhD Life Tips</title>
-    <link>https://meiru-cam.github.io/blog_meiru/blog/example-phd-tips</link>
-    <guid>https://meiru-cam.github.io/blog_meiru/blog/example-phd-tips</guid>
-    <description><![CDATA[ Example: PhD Life Tips This is an example post for sharing PhD experiences and academic advice. ]]></description>
-    <pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Example: Tool Usage Post</title>
-    <link>https://meiru-cam.github.io/blog_meiru/blog/example-tool-usage</link>
-    <guid>https://meiru-cam.github.io/blog_meiru/blog/example-tool-usage</guid>
-    <description><![CDATA[ Example: Tool Usage Post This is an example showing how to share tool tips and usage hints. ]]></description>
-    <pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
