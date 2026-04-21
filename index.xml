@@ -9,32 +9,62 @@
     <title>Publications</title>
     <link>https://meiru-cam.github.io/blog_meiru/Publications</link>
     <guid>https://meiru-cam.github.io/blog_meiru/Publications</guid>
-    <description><![CDATA[  ArXiv Failure Modes in Multi-Hop QA: The Weakest Link Law and the Recognition Bottleneck Meiru Zhang, Zaiqiao Meng, Nigel Collier Under review, 2026 PDF Abstract Multi-hop QA fails in long contexts due to position bias. ]]></description>
-    <pubDate>Sat, 14 Feb 2026 13:00:26 GMT</pubDate>
+    <description><![CDATA[ Publications Selected Publications Title of Your Most Important Paper Authors (Year). Journal Name, Volume(Issue), Pages. ]]></description>
+    <pubDate>Sun, 16 Nov 2025 13:01:39 GMT</pubDate>
   </item><item>
-    <title>Home</title>
-    <link>https://meiru-cam.github.io/blog_meiru/</link>
-    <guid>https://meiru-cam.github.io/blog_meiru/</guid>
-    <description><![CDATA[  Meiru Zhang PhD Student | University of Cambridge My research is driven by the potential of AI in real-world applications (“AI for good”). ]]></description>
-    <pubDate>Fri, 13 Feb 2026 20:39:15 GMT</pubDate>
+    <title>LLM Position Bias and RAG Mechanism</title>
+    <link>https://meiru-cam.github.io/blog_meiru/blog/llm-position-bias-rag</link>
+    <guid>https://meiru-cam.github.io/blog_meiru/blog/llm-position-bias-rag</guid>
+    <description><![CDATA[ LLM Position Bias and RAG Mechanism This post explores position bias in Large Language Models and its implications for Retrieval-Augmented Generation (RAG) systems. ]]></description>
+    <pubDate>Sun, 16 Nov 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>Blog</title>
     <link>https://meiru-cam.github.io/blog_meiru/Blog</link>
     <guid>https://meiru-cam.github.io/blog_meiru/Blog</guid>
-    <description><![CDATA[ Blog Welcome to my blog! Here I share reading notes, tool tips, PhD insights, and academic writing advice. ]]></description>
-    <pubDate>Fri, 13 Feb 2026 19:03:54 GMT</pubDate>
+    <description><![CDATA[ Blog Welcome to my blog! Here I share reading notes, tool tips, PhD insights, and writing advice. ]]></description>
+    <pubDate>Wed, 15 Oct 2025 14:46:08 GMT</pubDate>
   </item><item>
-    <title>VLA</title>
-    <link>https://meiru-cam.github.io/blog_meiru/blog/VLA</link>
-    <guid>https://meiru-cam.github.io/blog_meiru/blog/VLA</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Thu, 05 Feb 2026 18:25:24 GMT</pubDate>
+    <title>Experience</title>
+    <link>https://meiru-cam.github.io/blog_meiru/Experience</link>
+    <guid>https://meiru-cam.github.io/blog_meiru/Experience</guid>
+    <description><![CDATA[ Experience 2023 - Present: PhD Candidate, University of Glasgow . ]]></description>
+    <pubDate>Wed, 15 Oct 2025 14:46:08 GMT</pubDate>
+  </item><item>
+    <title>News</title>
+    <link>https://meiru-cam.github.io/blog_meiru/News</link>
+    <guid>https://meiru-cam.github.io/blog_meiru/News</guid>
+    <description><![CDATA[ News 2023-10-15: Started this blog! . ]]></description>
+    <pubDate>Wed, 15 Oct 2025 14:46:08 GMT</pubDate>
+  </item><item>
+    <title>Projects</title>
+    <link>https://meiru-cam.github.io/blog_meiru/Projects</link>
+    <guid>https://meiru-cam.github.io/blog_meiru/Projects</guid>
+    <description><![CDATA[ Projects Project 1 . ]]></description>
+    <pubDate>Wed, 15 Oct 2025 14:46:08 GMT</pubDate>
+  </item><item>
+    <title>Home</title>
+    <link>https://meiru-cam.github.io/blog_meiru/</link>
+    <guid>https://meiru-cam.github.io/blog_meiru/</guid>
+    <description><![CDATA[ Meiru Zhang PhD Student | University of Cambridge About Me My research is driven by the potential of AI in real-world applications (“AI for good”). ]]></description>
+    <pubDate>Wed, 15 Oct 2025 14:46:08 GMT</pubDate>
+  </item><item>
+    <title>Example: Literature Review Post</title>
+    <link>https://meiru-cam.github.io/blog_meiru/blog/example-literature-review</link>
+    <guid>https://meiru-cam.github.io/blog_meiru/blog/example-literature-review</guid>
+    <description><![CDATA[ Example: Literature Review Post This is an example blog post showing how to write literature reviews or reading notes. ]]></description>
+    <pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Example: PhD Life Tips</title>
+    <link>https://meiru-cam.github.io/blog_meiru/blog/example-phd-tips</link>
+    <guid>https://meiru-cam.github.io/blog_meiru/blog/example-phd-tips</guid>
+    <description><![CDATA[ Example: PhD Life Tips This is an example post for sharing PhD experiences and academic advice. ]]></description>
+    <pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>Example: Tool Usage Post</title>
     <link>https://meiru-cam.github.io/blog_meiru/blog/example-tool-usage</link>
     <guid>https://meiru-cam.github.io/blog_meiru/blog/example-tool-usage</guid>
     <description><![CDATA[ Example: Tool Usage Post This is an example showing how to share tool tips and usage hints. ]]></description>
-    <pubDate>Tue, 30 Sep 2025 23:00:00 GMT</pubDate>
+    <pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

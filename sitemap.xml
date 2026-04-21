@@ -1,16 +1,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://meiru-cam.github.io/blog_meiru/Blog</loc>
-    <lastmod>2026-02-13T19:03:54.353Z</lastmod>
+    <lastmod>2025-10-15T14:46:08.000Z</lastmod>
+  </url><url>
+    <loc>https://meiru-cam.github.io/blog_meiru/Experience</loc>
+    <lastmod>2025-10-15T14:46:08.000Z</lastmod>
+  </url><url>
+    <loc>https://meiru-cam.github.io/blog_meiru/News</loc>
+    <lastmod>2025-10-15T14:46:08.000Z</lastmod>
+  </url><url>
+    <loc>https://meiru-cam.github.io/blog_meiru/Projects</loc>
+    <lastmod>2025-10-15T14:46:08.000Z</lastmod>
   </url><url>
     <loc>https://meiru-cam.github.io/blog_meiru/Publications</loc>
-    <lastmod>2026-02-14T13:00:26.502Z</lastmod>
+    <lastmod>2025-11-16T13:01:39.000Z</lastmod>
   </url><url>
-    <loc>https://meiru-cam.github.io/blog_meiru/blog/VLA</loc>
-    <lastmod>2026-02-05T18:25:24.330Z</lastmod>
+    <loc>https://meiru-cam.github.io/blog_meiru/blog/example-literature-review</loc>
+    <lastmod>2025-10-01T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://meiru-cam.github.io/blog_meiru/blog/example-phd-tips</loc>
+    <lastmod>2025-10-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://meiru-cam.github.io/blog_meiru/blog/example-tool-usage</loc>
-    <lastmod>2025-09-30T23:00:00.000Z</lastmod>
+    <lastmod>2025-10-01T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://meiru-cam.github.io/blog_meiru/blog/llm-position-bias-rag</loc>
+    <lastmod>2025-11-16T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://meiru-cam.github.io/blog_meiru/</loc>
-    <lastmod>2026-02-13T20:39:15.368Z</lastmod>
+    <lastmod>2025-10-15T14:46:08.000Z</lastmod>
   </url></urlset>
