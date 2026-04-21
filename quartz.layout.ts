@@ -89,7 +89,7 @@ export const defaultSharedLayout: SharedLayout = {
        "Home": "/",
        "News": "/News",
        "Publications": "/Publications",
-       "Blog": "/Blog",
+       "Blog": "/blog",
        "Experience": "/Experience",
        "Projects": "/Projects",
      },
