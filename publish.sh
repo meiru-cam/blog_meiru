@@ -24,8 +24,10 @@ fi
 git add content
 
 if ! git pull --rebase --autostash; then
-  echo "publish.sh: rebase failed. Run 'git rebase --abort' then resolve" >&2
-  echo "  the divergence manually before re-running." >&2
+  echo "publish.sh: rebase failed. To recover:" >&2
+  echo "  1. git rebase --abort" >&2
+  echo "  2. git stash pop   # restores any autostashed content/ edits" >&2
+  echo "  3. resolve the divergence, then re-run publish.sh" >&2
   exit 1
 fi
 
@@ -34,5 +36,5 @@ if git diff --cached --quiet; then
   exit 0
 fi
 
-git commit -m "${1:-update blog}"
+git commit -m "${*:-update blog}"
 git push
