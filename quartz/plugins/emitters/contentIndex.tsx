@@ -116,7 +116,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
               : undefined,
             date: date,
             description: file.data.description ?? "",
-            tldr: (file.data.frontmatter?.tldr as string) ?? "",
+            tldr: typeof file.data.frontmatter?.tldr === "string" ? file.data.frontmatter.tldr : "",
           })
         }
       }
