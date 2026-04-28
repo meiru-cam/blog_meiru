@@ -5,6 +5,7 @@ tags:
   - llm
   - rag
   - position-bias
+tldr: Position bias in retrievers reshapes RAG answers based on document order — a mechanism issue, not a tuning knob.
 ---
 
 # LLM Position Bias and RAG Mechanism
