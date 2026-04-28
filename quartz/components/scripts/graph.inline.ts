@@ -31,6 +31,7 @@ type NodeData = {
   id: SimpleSlug
   text: string
   tags: string[]
+  tldr?: string
 } & SimulationNodeDatum
 
 type SimpleLinkData = {
@@ -149,6 +150,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       id: url,
       text,
       tags: data.get(url)?.tags ?? [],
+      tldr: data.get(url)?.tldr,
     }
   })
   const graphData: { nodes: NodeData[]; links: LinkData[] } = {
