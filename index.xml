@@ -6,6 +6,18 @@
       <description>Last 10 notes on Meiru Zhang</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>News</title>
+    <link>https://meiru-cam.github.io/blog_meiru/News</link>
+    <guid>https://meiru-cam.github.io/blog_meiru/News</guid>
+    <description><![CDATA[ News 2026-04: Co-presenting the AI &amp; Judgement workshop at the Gates Cambridge Bridgehouse Programme (29 April – 1 May, Cambridge). ]]></description>
+    <pubDate>Tue, 28 Apr 2026 11:27:29 GMT</pubDate>
+  </item><item>
+    <title>Projects</title>
+    <link>https://meiru-cam.github.io/blog_meiru/Projects</link>
+    <guid>https://meiru-cam.github.io/blog_meiru/Projects</guid>
+    <description><![CDATA[ Projects Priaxis — Autonomous Personalised Agent System 2025 – Present Challenge: How can an LLM agent autonomously manage personal goals while adapting to individual user context without explicit instruction? Approach: A multi-agent system built on the Claude Code SDK and the Model Context Protocol... ]]></description>
+    <pubDate>Tue, 28 Apr 2026 11:27:29 GMT</pubDate>
+  </item><item>
     <title>Blog</title>
     <link>https://meiru-cam.github.io/blog_meiru/blog/</link>
     <guid>https://meiru-cam.github.io/blog_meiru/blog/</guid>
@@ -16,18 +28,6 @@
     <link>https://meiru-cam.github.io/blog_meiru/Experience</link>
     <guid>https://meiru-cam.github.io/blog_meiru/Experience</guid>
     <description><![CDATA[ Experience Epic Games — London, UK ML Research Intern (Part-time) · Feb 2026 – Present Improving the AI Assistant for Unreal Engine and its Code Generation Agent, where LLM agents struggle with tool use in domain-specific, low-resource programming environments. ]]></description>
-    <pubDate>Tue, 21 Apr 2026 14:45:42 GMT</pubDate>
-  </item><item>
-    <title>News</title>
-    <link>https://meiru-cam.github.io/blog_meiru/News</link>
-    <guid>https://meiru-cam.github.io/blog_meiru/News</guid>
-    <description><![CDATA[ News 2026-04: In Rio de Janeiro for ICLR 2026 (April 23–27), presenting DRIFT as a poster. ]]></description>
-    <pubDate>Tue, 21 Apr 2026 14:45:42 GMT</pubDate>
-  </item><item>
-    <title>Projects</title>
-    <link>https://meiru-cam.github.io/blog_meiru/Projects</link>
-    <guid>https://meiru-cam.github.io/blog_meiru/Projects</guid>
-    <description><![CDATA[ Projects Priaxis — Autonomous Personalised Agent System 2025 – Present Challenge: How can an LLM agent autonomously manage personal goals while adapting to individual user context without explicit instruction? Approach: A multi-agent system built on the Claude Code SDK and the Model Context Protocol... ]]></description>
     <pubDate>Tue, 21 Apr 2026 14:45:42 GMT</pubDate>
   </item><item>
     <title>Publications</title>
