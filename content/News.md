@@ -4,6 +4,7 @@ title: News
 
 # News
 
+- **2026-04:** Co-presenting the *AI & Judgement* workshop at the **Gates Cambridge Bridgehouse Programme** (29 April – 1 May, Cambridge).
 - **2026-04:** In Rio de Janeiro for **ICLR 2026** (April 23–27), presenting [DRIFT](https://arxiv.org/abs/2510.10815) as a poster.
 - **2026-04:** [Failure Modes in Multi-Hop QA: The Weakest Link Effect and Recognition Bottleneck](https://arxiv.org/abs/2601.12499) accepted to **ACL 2026**.
 - **2026-03:** PhD thesis submitted at the University of Cambridge.
