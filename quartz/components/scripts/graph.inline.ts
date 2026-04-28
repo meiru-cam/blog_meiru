@@ -51,6 +51,7 @@ type LinkRenderData = GraphicsInfo & {
 type NodeRenderData = GraphicsInfo & {
   simulationData: NodeData
   label: Text
+  tldrLabel?: Text
 }
 
 const localStorageKey = "graph-visited"
@@ -307,6 +308,14 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
           ),
         )
       }
+
+      if (n.tldrLabel) {
+        if (hoveredNodeId === nodeId) {
+          tweenGroup.add(new Tweened<Text>(n.tldrLabel).to({ alpha: 1 }, 100))
+        } else {
+          tweenGroup.add(new Tweened<Text>(n.tldrLabel).to({ alpha: n.tldrLabel.alpha }, 100))
+        }
+      }
     }
 
     tweenGroup.getAll().forEach((tw) => tw.start())
@@ -391,6 +400,29 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     })
     label.scale.set(1 / scale)
 
+    let tldrLabel: Text | undefined
+    if (n.tldr) {
+      tldrLabel = new Text({
+        interactive: false,
+        eventMode: "none",
+        text: `TL;DR: ${n.tldr}`,
+        alpha: 0,
+        anchor: { x: 0.5, y: -0.2 },
+        style: {
+          fontSize: fontSize * 11,
+          fontStyle: "italic",
+          fill: computedStyleMap["--dark"],
+          fontFamily: computedStyleMap["--bodyFont"],
+          wordWrap: true,
+          wordWrapWidth: 320,
+          align: "center",
+        },
+        resolution: window.devicePixelRatio * 4,
+      })
+      tldrLabel.scale.set(1 / scale)
+      labelsContainer.addChild(tldrLabel)
+    }
+
     let oldLabelOpacity = 0
     const isTagNode = nodeId.startsWith("tags/")
     const gfx = new Graphics({
@@ -428,6 +460,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       simulationData: n,
       gfx,
       label,
+      tldrLabel,
       color: color(n),
       alpha: 1,
       active: false,
@@ -534,6 +567,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       n.gfx.position.set(x + width / 2, y + height / 2)
       if (n.label) {
         n.label.position.set(x + width / 2, y + height / 2)
+      }
+      if (n.tldrLabel) {
+        n.tldrLabel.position.set(x + width / 2, y + height / 2)
       }
     }
 
